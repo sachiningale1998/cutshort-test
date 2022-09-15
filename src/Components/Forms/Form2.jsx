@@ -9,10 +9,6 @@ const Form2 = () => {
                 <label htmlFor="fullName" className="form-label">Full Name</label>
                 <input type="text" className="form-control"  aria-describedby="emailHelp" />
             </div>
-            {/* <div className="mb-3">
-                <label htmlFor="displayName" className="form-label">Display Name</label>
-                <input type="text" className="form-control" />
-            </div> */}
                 <label id={styles.urlLabel} htmlFor="workurl" className="form-label">Workspace URL <span className={styles.optSpan}>(optional)</span></label>
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon3">www.eden.com/</span>
