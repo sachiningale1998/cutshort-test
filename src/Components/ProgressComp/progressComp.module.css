@@ -1,0 +1,27 @@
+.container{
+    justify-content: center;
+    align-items: center ;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.round{
+    border: 1px solid whitesmoke;
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+    /* text-align: center;
+    justify-content: center; */
+    /* background-color: #654de4 */
+}
+.round>span{
+    margin : auto;
+    justify-self: center;
+    font-size:11px;
+
+}
+.lineDivs{
+    border-top: 1px solid whitesmoke;
+    width: 7%;
+
+}

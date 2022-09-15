@@ -11,7 +11,7 @@
 }
 .form1>div{
     font-family: "Inter";
-    width: 90%;
+    width: 80%;
     /* border: 1px solid red; */
     margin: 0 auto;
 }
@@ -22,7 +22,7 @@
     font: "Inter";
 }
 #urlLabel{
-    margin-left: 1.7rem;
+    margin-left: 10%;
 }
 .optSpan{
     color: grey;

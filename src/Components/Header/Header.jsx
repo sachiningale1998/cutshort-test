@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <div>
             <h1>{heading}</h1>
-            <p>{para}</p>
+            <p className={styles.paragraph}>{para}</p>
     </div>
   )
 }
