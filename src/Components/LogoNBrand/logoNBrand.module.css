@@ -1,0 +1,15 @@
+.parentDiv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue ;
+    gap: 5px;
+}
+.parentDiv>div:nth-child(1) img{
+    /* border: 1px solid red; */
+    justify-self: center;
+    align-self: center;
+    width: 34px ;
+    height:34px ;
+    margin:50% 0;
+}
