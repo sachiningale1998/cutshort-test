@@ -33,7 +33,7 @@ function App() {
   }
 
   const prevPage=()=>{
-    if(count>0){
+    if(count>=2){
       setCount(count-1)
       console.log('count: ', count);
     }
