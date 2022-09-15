@@ -1,6 +1,7 @@
 .mainContainer{
+    width: 45%;
     margin: auto;
     align-items: center;
     justify-content: center;
-    width: 45%;
+    border: 1px solid red;
 }

@@ -2,7 +2,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    border: 2px solid blue ;
+    /* border: 2px solid blue ; */
     gap: 5px;
 }
 .parentDiv>div:nth-child(1) img{
@@ -11,5 +11,5 @@
     align-self: center;
     width: 34px ;
     height:34px ;
-    margin:50% 0;
+    margin: auto;
 }
