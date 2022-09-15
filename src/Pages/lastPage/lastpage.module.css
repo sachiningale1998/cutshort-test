@@ -1,0 +1,7 @@
+.mainContainerLast{
+    width: 45%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}

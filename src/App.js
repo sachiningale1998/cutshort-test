@@ -3,6 +3,7 @@ import './App.css';
 import CreateWorkspace from './Pages/createWorkspace/CreateWorkspace';
 import WorkSpaceInfo from './Pages/workspaceInfo/WorkSpaceInfo';
 import EdenPlan from './Pages/edenPlan/EdenPlan';
+import LastPage from './Pages/lastPage/LastPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <CreateWorkspace />
       <WorkSpaceInfo />
       <EdenPlan />
+      <LastPage />
     </div>
   );
 }
