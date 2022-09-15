@@ -5,7 +5,7 @@ const Header = (props) => {
  let {heading, para} = props
   return (
     <div className={styles.mainDivHeader}>
-            <h1>{heading}</h1>
+            <h2>{heading}</h2>
             <p className={styles.paragraph}>{para}</p>
     </div>
   )

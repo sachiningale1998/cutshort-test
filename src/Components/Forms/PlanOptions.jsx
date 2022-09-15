@@ -17,7 +17,7 @@ const PlanOptions = () => {
                 </div>
                 <div className={styles.flexBox2}>
                      <div className={styles.flexBoxChild}>
-                        <i class="fa-solid fa-users"></i>
+                        <i className="fa-solid fa-users"></i>
                         <p className={styles.heading}>With my team</p>
                         <p className={styles.para}>
                             Wikis, docs, tasks and projects, all in one place.

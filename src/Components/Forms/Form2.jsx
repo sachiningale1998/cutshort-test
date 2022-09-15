@@ -10,11 +10,10 @@ const Form2 = () => {
                 <input type="text" className="form-control" placeholder='Eden' aria-describedby="emailHelp" />
             </div>
                 <label id={styles.urlLabel} htmlFor="workurl" className="form-label">Workspace URL <span className={styles.optSpan}>(optional)</span></label>
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon3">www.eden.com/</span>
-                <input type="text" class="form-control" id="basic-url" placeholder='Example' aria-describedby="basic-addon3" />
+            <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon3">www.eden.com/</span>
+                <input type="text" className="form-control" id="basic-url" placeholder='Example' aria-describedby="basic-addon3" />
             </div>
-
             <div>
                 <input type="submit" className="form-control" value="Create Workspace" id={styles.btn} />
             </div>
