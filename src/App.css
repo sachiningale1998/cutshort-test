@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  font-family:"inter";
-  background-color:#e9ecf4;
+  font-family: "inter";
+  background-color: #e9ecf4;
   padding: 0.5rem 0.3rem;
 }
 
@@ -9,28 +9,28 @@
   height: 40vmin;
   pointer-events: none;
 }
-.mainContainer{
+.mainContainer {
   margin: 1rem 2rem;
-  background-color:white;
+  background-color: white;
 }
-.leftIcon{
+.leftIcon {
   position: fixed;
   top: 50%;
   left: 2.3%;
   border: 0.5px solid whitesmoke;
-  border-radius:50%;
+  border-radius: 50%;
   width: 26px;
-  background-color:white;
+  background-color: white;
   cursor: pointer;
 }
-.rightIcon{
+.rightIcon {
   position: fixed;
   top: 50%;
   right: 2.3%;
   border: 0.5px solid whitesmoke;
-  border-radius:50%;
+  border-radius: 50%;
   width: 26px;
-  background-color:white;
+  background-color: white;
   cursor: pointer;
 }
 @media (prefers-reduced-motion: no-preference) {

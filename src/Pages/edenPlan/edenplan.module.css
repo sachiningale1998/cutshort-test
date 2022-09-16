@@ -1,27 +1,27 @@
-.planMainDiv{
-    width: 45%;
+.planMainDiv {
+  width: 45%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2.2rem 0;
+}
+
+@media all and (max-width: 320px) {
+  .planMainDiv {
+    width: 90%;
     margin: auto;
     align-items: center;
     justify-content: center;
-    padding: 2.2rem 0;
+    padding: 1rem 0;
+  }
 }
 
-@media all and (max-width:320px){
-    .planMainDiv{
-        width: 90%;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem 0;
-    }
-}
-
-@media all and (min-width:321px) and (max-width:768px){
-    .planMainDiv{
-        width: 75%;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-        padding: 1.5rem 0;
-    }
+@media all and (min-width: 321px) and (max-width: 768px) {
+  .planMainDiv {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+  }
 }

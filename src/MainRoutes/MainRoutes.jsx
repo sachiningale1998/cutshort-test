@@ -5,7 +5,6 @@ import EdenPlan from "../Pages/edenPlan/EdenPlan";
 import LastPage from "../Pages/lastPage/LastPage";
 import WorkSpaceInfo from "../Pages/workspaceInfo/WorkSpaceInfo";
 
-
 const MainRoutes = () => {
   return (
     <>

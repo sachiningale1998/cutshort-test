@@ -1,101 +1,97 @@
-.mainDiv{
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    font-family: "Inter";
-    margin: 2rem 0;
+.mainDiv {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  margin: 2rem 0;
 }
 
-.flexParent{
+.flexParent {
+  font-family: "Inter";
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.flexBox1 {
+  border: 1px solid #654de4;
+  width: 43%;
+}
+.flexBox2 {
+  border: 1px solid whitesmoke;
+  width: 43%;
+}
+.flexBoxChild {
+  padding: 10%;
+}
+.heading {
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+.para {
+  font-size: 13px;
+  color: rgb(188, 181, 181);
+}
+#btn {
+  width: 100%;
+  background-color: #654de4;
+  color: #fff;
+  font: "Inter";
+  margin: 5% 0;
+}
+
+@media all and (max-width: 320px) {
+  .flexParent {
     font-family: "Inter";
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
-    display: flex;
-    justify-content:space-between;
-}
-.flexBox1{
+  }
+  .flexBox1 {
     border: 1px solid #654de4;
-    width: 43%;
-}
-.flexBox2{
+    width: 47%;
+  }
+  .flexBox2 {
     border: 1px solid whitesmoke;
-    width: 43%;
-}
-.flexBoxChild{
-    padding: 10%;
-}
-.heading{
-    font-weight: 600;
-    margin-top:0.6rem;
-}
-.para{
-    font-size: 13px;
-    color: rgb(188, 181, 181);
-}
-#btn{
-    width: 100%;
-    background-color:#654de4;
+    width: 47%;
+  }
+  #btn {
+    width: 90%;
+    background-color: #654de4;
     color: #fff;
     font: "Inter";
-    margin: 5% 0;
+    margin: 5% auto;
+  }
 }
 
-@media all and (max-width:320px){
-    .flexParent{
-        font-family: "Inter";
-        width: 90%;
-        /* border: 1px solid red; */
-        margin: 0 auto;
-    }
-    .flexBox1{
-        border: 1px solid #654de4;
-        width: 47%;
-    }
-    .flexBox2{
-        border: 1px solid whitesmoke;
-        width: 47%;
-    }
-    #btn{
-        width: 90%;
-        background-color:#654de4;
-        color: #fff;
-        font: "Inter";
-        margin: 5% auto;
-    }
+@media all and (min-width: 321px) and (max-width: 768px) {
+  .flexParent {
+    font-family: "Inter";
+    width: 75%;
+    margin: 0 auto;
+  }
+  .flexBox1 {
+    border: 1px solid #654de4;
+    width: 47%;
+  }
+  .flexBox2 {
+    border: 1px solid whitesmoke;
+    width: 47%;
+  }
+  #btn {
+    width: 75%;
+    background-color: #654de4;
+    color: #fff;
+    font: "Inter";
+    margin: 5% auto;
+  }
 }
 
-
-@media all and (min-width:321px) and (max-width:768px){
-    .flexParent{
-        font-family: "Inter";
-        width: 75%;
-        /* border: 1px solid red; */
-        margin: 0 auto;
-    }
-    .flexBox1{
-        border: 1px solid #654de4;
-        width: 47%;
-    }
-    .flexBox2{
-        border: 1px solid whitesmoke;
-        width: 47%;
-    }
-    #btn{
-        width: 75%;
-        background-color:#654de4;
-        color: #fff;
-        font: "Inter";
-        margin: 5% auto;
-    }
-}
-
-@media all and (min-width:769px){
-    #btn{
-        width: 70%;
-        background-color:#654de4;
-        color: #fff;
-        font: "Inter";
-        margin: 5% auto;
-    }
-    
+@media all and (min-width: 769px) {
+  #btn {
+    width: 70%;
+    background-color: #654de4;
+    color: #fff;
+    font: "Inter";
+    margin: 5% auto;
+  }
 }
